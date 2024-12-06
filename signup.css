@@ -1,0 +1,164 @@
+/* Reset styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Signup container styles */
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Form title */
+.signup-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Button styling */
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #007BFF;
+}
+
+/* login Button Styling */
+.login-container {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-link {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+/* CSS cho phần footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+.footer-column {
+    width: 23%;
+}
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.footer-column p, .footer-column a {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+    text-decoration: none;
+}
+.footer-column a:hover {
+    text-decoration: underline;
+}
+.footer-column .contact-info {
+    margin-top: 10px;
+}
+.footer-column .contact-info p {
+    margin: 5px 0;
+}
+.footer-column .social-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.footer-column .social-icons i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #333;
+}
+.footer-column .social-icons i:hover {
+    color: #007bff;
+}
+
+.banner img{
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position-y: -50% ;
+    background-size: cover;
+
+}
+
+
+
+/* Error message styling */
+.error {
+    color: #d9534f;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .signup-container {
+        padding: 15px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
